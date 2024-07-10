@@ -2,7 +2,8 @@ body{
     font-size: 12;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #a9c2c6;
-    color:rgb(92, 91, 91);
+    /*color:rgb(92, 91, 91);*/
+    color:black;
     margin:0;
 }
 
@@ -25,7 +26,7 @@ footer
 a.navlink
 {
     padding:10px;
-    background-color:red;
+    background-color:rgb(183,21,21);
     color:white;
     text-decoration: none;
     font-size:1.2vw;
@@ -33,7 +34,7 @@ a.navlink
 
 a.navlink:hover
 {
-    color:red;
+    color:rgb(183, 21, 21);
     background-color:white;
 }
 
@@ -42,14 +43,14 @@ nav
     position:absolute;
     top: 45px;
     left:350px;
-    width:500px;
+    width:50%;
     height:30px;
 }
 
 h1
 {
     text-align:center;
-    color:rgb(200, 8, 8);
+    color:rgb(183, 21, 21);
     font-size:50px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
@@ -82,15 +83,17 @@ a.insite_button_link
     margin-left:auto;
     margin-right:auto;
     text-align:center;
-    color:red;
-    background-color:rgb(98, 98, 98);
+    color:white;
+    background-color:rgb(183, 21, 21);
     font-weight:bold;
     text-decoration:none;
 }
 
 a.insite_button_link:hover
 {
-    background-color:black;
+    color:rgb(183, 21, 21);
+    background-color: white;
+
 }
 
 #dempster_pic
@@ -174,7 +177,7 @@ img.status_img
 
 .collapsible-about-button
 {
-    background-color:red;
+    background-color:rgb(183, 21, 21);
     color:white;
     padding: 10px;
     width: 100%;
@@ -219,12 +222,13 @@ img.status_img
 @media screen and (max-width:800px){
     div.ss-profile
     {
-        width:50%;
+        width:45%;
 
     }
     nav
     {
         position:static;
+        width:100%;
     }
     .nav_img
     {
