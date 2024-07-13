@@ -182,6 +182,7 @@ img.status_img
     padding: 10px;
     width: 100%;
     border-width:0;
+    font-size: 100%;
 }
 
 .active, .collapsible-about-button:hover
@@ -190,16 +191,34 @@ img.status_img
     color:white;
 }
 
-/*.collapsible-about-content
+.collapsible-about-content
 {
     display:none;
-    overflow:hidden;
-}*/
+}
+
+
+#full-time,
+#seasonal-leaders,
+#seasonal-staff {
+    display: none;
+}
+
+#staff-selector
+{
+    background-color:navy;
+    color:white;
+    padding:10px;
+    padding-top:5px;
+}
+
 
 /* Media Queries  */
 
 
-
+#checkbox-heading
+{
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width:1000px){

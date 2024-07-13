@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <title> About: City of Evanston Lifeguard Service </title>
         <link rel="stylesheet" href="css/main.css">
+        <script src="scripts/main.js" defer></script>
 
     </head>
 
@@ -41,10 +42,10 @@
 
             </div>
             <div>
-                <button type="button" class = "collapsible-about-button">  Section 1</button> 
+                <button type="button" class = "collapsible-about-button" toggle-content = "about-1" onclick = "toggleContent(this)">  Section 1</button> 
                 <br>
                 <br>
-                <div class = "collapsible-about-content">
+                <div class = "collapsible-about-content" id = "about-1">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -55,10 +56,17 @@
                 qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <button type="button" class = "collapsible-about-button">Section 2</button> 
+                <noscript>
+
+                    <div>
+                        <p>Alternate paragraph for those without javascript enabled</p>
+                    </div>
+
+                </noscript>
+                <button type="button" class = "collapsible-about-button" toggle-content = "about-2" onclick = "toggleContent(this)">Section 2</button> 
                 <br>
                 <br>
-                <div class = "collapsible-about-content">
+                <div class = "collapsible-about-content" id = "about-2">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -69,10 +77,17 @@
                 qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <button type="button" class = "collapsible-about-button">Section 3</button> 
+                <noscript>
+
+                    <div>
+                        <p>Alternate paragraph for those without javascript enabled</p>
+                    </div>
+
+                </noscript>
+                <button type="button" class = "collapsible-about-button" toggle-content = "about-3" onclick = "toggleContent(this)">Section 3</button> 
                 <br>
                 <br>
-                <div class = "collapsible-about-content">
+                <div class = "collapsible-about-content" id = "about-3">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -83,10 +98,17 @@
                 qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <button type="button" class = "collapsible-about-button">Section 4</button> 
+                <noscript>
+
+                    <div>
+                        <p>Alternate paragraph for those without javascript enabled</p>
+                    </div>
+
+                </noscript>
+                <button type="button" class = "collapsible-about-button" toggle-content = "about-4" onclick = "toggleContent(this)">Section 4</button> 
                 <br>
                 <br>
-                <div class = "collapsible-about-content">
+                <div class = "collapsible-about-content" id = "about-4">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -97,6 +119,13 @@
                 qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
+                <noscript>
+
+                    <div>
+                        <p>Alternate paragraph for those without javascript enabled</p>
+                    </div>
+
+                </noscript>
             </div>
             
             

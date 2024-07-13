@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <title> Staff: City of Evanston Lifeguard Service </title>
         <link rel="stylesheet" href="css/main.css">
+        <script src="scripts/main.js" defer></script>
 
     </head>
 
@@ -24,7 +25,16 @@
         </header>
 
         <main>
-            <div>
+            <div id = "staff-selector">
+                <p id = "checkbox-heading">Show:</p>
+                <input type="checkbox" id="full-time-box" name="full-time"  toggle-content = "full-time" onchange = "toggleContent(this)" checked>
+                <label for="full-time"> Full Time Staff </label><br>
+                <input type="checkbox" id="seasonal-leaders-box" name="seasonal-leaders"  toggle-content = "seasonal-leaders" onchange = "toggleContent(this)" checked>
+                <label for="seasonal-leaders"> Seasonal Leadership </label><br>
+                <input type="checkbox" id="seasonal-staff-box" name="seasonal-staff"  toggle-content = "seasonal-staff" onchange = "toggleContent(this)" checked>
+                <label for="seasonal-staff"> Seasonal Staff </label><br>
+            </div>
+            <div id = "full-time">
                 <h2>Full Time Leadership</h2>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
@@ -84,7 +94,7 @@
             </div>
             <div class="floated-clear"></div>
             <br>
-            <div>
+            <div id = "seasonal-leaders">
                 <h2>Seasonal Leadership</h2>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
@@ -189,7 +199,7 @@
             </div>
             <div class="floated-clear"></div>
             <br>
-            <div>
+            <div id = "seasonal-staff">
                 <h2>Seasonal Staff</h2>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
