@@ -211,6 +211,12 @@ img.status_img
     padding-top:5px;
 }
 
+#map
+{
+    height:300px;
+    width:100%;
+}
+
 
 /* Media Queries  */
 
